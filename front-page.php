@@ -17,7 +17,7 @@
 					<div class="quote">
 						<p>Memiliki desain</p>
 						<p>simple dan modern, wpkonepage bisa anda dapatkan gratis!</p>
-						<a href="#" class="btn btn-outline-dark btn-xs">DOWNLOAD</a>
+						<a href="https://github.com/wpkoding/wpkonepage" class="btn btn-outline-dark btn-xs">DOWNLOAD</a>
 					</div>
 				</div>
 			</div>
