@@ -5,8 +5,8 @@ Dikembangkan dengan teknologi WordPress, PHP, MySQL, HTML5, CSS3, Javascript, jQ
 **Note:** Tema ini dalam tahap pengembangan.
 ```
 Fitur yang belum:
-*WordPress Customizer
-*Fix responsive design
+* WordPress Customizer
+* Fix responsive design
 ```
 
 Live demo: [https://demo.wpkoding.com/wpkonepage](https://demo.wpkoding.com/wpkonepage)
