@@ -1,0 +1,324 @@
+/*
+Theme Name: wpkonepage
+Theme URI: https://demo.wpkoding.com/wpkonepage
+Author: Adi Cahyaludin
+Author URI: https://adicahyaludin.github.io
+Description: wpkonepage is one page WordPress Theme
+Version: 1.0.0
+License: GPLv2
+Text Domain: wpkonepage
+*/
+
+/* Basic */
+body {
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 16px;
+    color: #343a40;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Bellefair;
+}
+button, input, optgroup, select, textarea {
+    font-family: Lato;
+    font-weight: 300;
+}
+.section {
+    padding: 115px 0px;
+}
+.section-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.section-header h3 {
+    margin: 0px 0px 30px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.section-header p {
+    font-size: 24px;
+}
+.btn {
+    border-radius: 20px;
+    padding: 6px 11px 8px;
+    cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+    box-shadow: none;
+}
+.form-control {
+    border-color: #fff;
+    border-radius: 0px;
+    font-size: 16px;
+    box-shadow: none;
+}
+.form-control:focus {
+    border-color: #fff;
+}
+.form-control:focus,
+.has-error .form-control:focus,
+.has-success .form-control:focus {
+    box-shadow: none;
+}
+.alert {
+    border-radius: 0;
+    border: 0;
+}
+.navbar-toggler {
+    border-radius: 0;
+}
+
+/* site-cover */
+#site-cover {
+    background: url(assets/img/bg-cover.jpg) no-repeat center center fixed;
+    background-size: auto auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+#site-cover::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    opacity: .9;
+    background: #56CCF2;
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
+    background: linear-gradient(to right, #2F80ED, #56CCF2);
+}
+#cover-text {
+    margin: 220px 0px 150px;
+}
+#cover-text h2 {
+    font-size: 90px;
+    margin-left: -4px;
+    font-family: Lato;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+#cover-text p {
+    font-size: 40px;
+    font-family: Bellefair;
+}
+#cover-btn {
+    margin-bottom: 75px;
+    text-align: center;
+}
+#cover-btn a {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+
+/* site-header */
+.navbar-brand {
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: -6px;
+}
+.wpk {
+    font-weight: 900;
+}
+.call,
+.call:hover,
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: #fff;
+}
+.call {
+    padding: .5rem 0;
+}
+
+/* site-main */
+/* about-us */
+#about-us .section-header {
+    margin: 0px;
+}
+#about-us .section-header h3 {
+    text-align: left;
+    margin-bottom: 40px;
+}
+#about-us .section-content p {
+    font-size: 24px;
+}
+.quote {
+    background-color: #56CCF2;
+    padding: 60px 50px;
+    text-align: center;
+}
+.quote p {
+    font-size: 40px;
+    line-height: 50px;
+    margin: 0px;
+}
+.quote a {
+    font-size: 40px;
+    border-radius: 36px;
+    border-width: 3px;
+    padding: 3px 24px;
+    margin-top: 20px;
+}
+.quote a.btn-outline-dark:hover,
+.quote a.btn-outline-dark:focus {
+    color: #343a40;
+    border-color: #343a40;
+    background-color: transparent;
+}
+
+/* services */
+#services {
+    background: #eee;
+}
+.service {
+    background: #FFFFFF;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.service h5 {
+    margin: 0px;
+}
+/* our-works */
+#filter span {
+    color: #343a40;
+    background-color: transparent;
+    margin: 0 1px;
+    padding: 6px 11px 8px;
+    border: 1px solid #343a40;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+#filter span:hover,
+#filter span.tagsort-active {
+    background: #343a40;
+    color: #fff;
+}
+.portofolio {
+    background-color: #EEEEEE;
+    margin-bottom: 15px;
+    height: 250px;
+}
+.portofolio-text {
+    padding: 110px 30px;
+    text-align: center;
+    color: #ccc;
+}
+.portofolio-text h4 {
+    text-transform: uppercase;
+}
+/* contact */
+#contact {
+    background-color: #eee;
+}
+#contact-form .fa-spinner {
+    margin-right: 5px;
+    display: none;
+}
+#contact-form .alert-danger, 
+#contact-form .alert-success {
+    display: none;
+}
+.contact-info {
+    background-color: #56CCF2;
+    padding: 37px 25px;
+}
+.contact-info h4 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.contact-info p {
+    margin-bottom: 5px;
+}
+.contact-info p i {
+    margin-right: 5px;
+}
+.social {
+    margin-top: 10px;
+}
+.social a {
+    padding: 5px 0;
+    width: 35px;
+    height: 35px;
+}
+.form-group {
+    position: relative;
+}
+.form-control-feedback {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    pointer-events: none;
+}
+.has-error .form-control {
+    border-color: #a94442;
+}
+.has-error .form-control-feedback, 
+.has-error .help-block {
+    color: #a94442;
+}
+.has-success .form-control {
+    border-color: #3c763d;
+}
+.has-success .form-control-feedback,
+.has-success .help-block {
+    color: #3c763d;
+}
+.has-feedback .form-control {
+    padding-right: 34px;
+}
+.help-block {
+    margin-top: 5px;
+}
+
+/* site-footer */
+#site-footer {
+    padding: 16px 0;
+}
+#site-footer p {
+    text-align: center;
+    margin: 0;
+}
+#site-footer a {
+    color: #343a40;
+}
+.fa-heart {
+    color: #e74c3c;
+}
+
+/* responsive design */
+
+/* layar 767px atau kurang */
+@media (max-width: 767px) {
+
+    /* about-us */
+    #about-us .section-content {
+        margin-bottom: 30px;
+    }
+
+    /* our-works */
+    #filter span {
+        margin-bottom: 3px;
+    }
+
+    /* contact */
+    #contact-form .btn {
+        margin-bottom: 30px;
+    }
+
+}
