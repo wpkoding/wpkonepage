@@ -310,6 +310,10 @@ button, input, optgroup, select, textarea {
     #about-us .section-content {
         margin-bottom: 30px;
     }
+    .quote a {
+        font-size: 25px;
+        padding: 5px 16px 3px;
+    }
 
     /* our-works */
     #filter span {
