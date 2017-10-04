@@ -40,7 +40,7 @@ button, input, optgroup, select, textarea {
 }
 .btn {
     border-radius: 20px;
-    padding: 6px 11px 8px;
+    padding: 6px 11px 7px;
     cursor: pointer;
 }
 .btn:hover,
@@ -192,7 +192,7 @@ button, input, optgroup, select, textarea {
     color: #343a40;
     background-color: transparent;
     margin: 0 1px;
-    padding: 6px 11px 8px;
+    padding: 6px 11px 7px;
     border: 1px solid #343a40;
     border-radius: 20px;
     cursor: pointer;
