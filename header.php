@@ -24,10 +24,10 @@
 	<header id="site-header">
 		<nav id="navigation" class="navbar navbar-expand-lg navbar-dark bg-dark">
 			<div class="container">
+				<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><span class="wpk">wpk</span>onepage</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><span class="wpk">wpk</span>onepage</a>
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<?php
 					if ( has_nav_menu( 'top' ) ) :
