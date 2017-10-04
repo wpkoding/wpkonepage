@@ -250,6 +250,9 @@ button, input, optgroup, select, textarea {
     width: 35px;
     height: 35px;
 }
+.social a i {
+    vertical-align: middle;
+}
 .form-group {
     position: relative;
 }
